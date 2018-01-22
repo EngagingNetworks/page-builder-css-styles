@@ -1,0 +1,35 @@
+/* Style standard checkboxes by hiding and replacement them */
+/* Hide checkboxes */
+.pb .en__field__input--checkbox {
+    display: none;
+}
+/* Position checkbox and label correctly */
+.pb .en__field__element--checkbox .en__field__item {
+    position: relative;
+}
+.pb .en__field--checkbox .en__field__label--item {
+    padding-left: 38px;
+}
+/* Ensure mouse pointer changes to a hand on hover */
+.pb .en__field--checkbox .en__field__label {
+    cursor: pointer;
+}
+/* Add replacement tick box */
+.pb input[type=checkbox]:checked + label:before {
+    background-color: #aaa;
+}
+.pb input[type=checkbox] + label:before {
+    content: "";
+    background-color: #fff;
+    border: 4px solid #fff;
+    outline: 1px solid #aaa;
+    border-radius: 1px;
+    height: 24px;
+    width: 24px;
+    margin: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}

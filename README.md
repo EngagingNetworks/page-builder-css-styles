@@ -9,7 +9,7 @@ You can add styles via each text or form block's style button (it looks like an 
 
 CSS can be added directly into your template's header, between the <head> and </head> tags. For example this would style text that is marked as Heading 1:
 
-```
+```html
 <style>
 h1 {
   margin: 1.7rem 0;

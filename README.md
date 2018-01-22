@@ -5,7 +5,9 @@ You can add styles via each text or form block's style button (it looks like an 
 
 **Note: the rules in this repository assume you have added a class "pb" to your body tag to help override any existing stylesheets.** You can do this like this:
 
-`<body class="pb">`
+```html
+<body class="pb">
+  ```
 
 CSS can be added directly into your template's header, between the <head> and </head> tags. For example this would style text that is marked as Heading 1:
 
@@ -21,5 +23,6 @@ h1 {
 
 Alternatively you can add your styles to an "external stylesheet". You can create these in Notepad and save them as a file ending in .css. Then upload them to your library and link to them in your template, for example:
 
-`<link rel="stylesheet" type="text/css" href="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1757/example-stylesheet.css?v=1516627625000" />`
-
+```html
+<link rel="stylesheet" type="text/css" href="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1757/example-stylesheet.css?v=1516627625000" />
+```

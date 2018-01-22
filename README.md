@@ -1,15 +1,15 @@
 # page-builder-css-styles
 Example css rules to style your page-builder pages
 
+You can add styles via each text or form block's style button (it looks like an artist's pallette), but if you want more control and to apply styles to your template so they always apply it is recommended you use CSS.
+
 **Note: the rules in this repository assume you have added a class "pb" to your body tag to help override any existing stylesheets.** You can do this like this:
 
 `<body class="pb">`
 
-You can add styles via each text or form block's style button (it looks like an artist's pallette), but if you want more control and to apply styles to your template so they always apply it is recommended you use CSS.
-
 CSS can be added directly into your template's header, between the <head> and </head> tags. For example this would style text that is marked as Heading 1:
 
-```
+```css
 <style>
 h1 {
   margin: 1.7rem 0;

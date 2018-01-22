@@ -1,6 +1,6 @@
 /* Mandatory asterisk */
-.pb .en__field.en__mandatory > label::after,
-.pb .en__field--registrant--mandatory > label::after {
+.en__field.en__mandatory > label::after,
+.en__field--registrant--mandatory > label::after {
     content: " *";
     color: #aa0000;
 }

@@ -1,7 +1,7 @@
 # page-builder-css-styles
 Example css rules to style your page-builder pages
 
-**Note: the rules in this repositiry assume you have added a class "pb" to your body tag to help override any existing stylesheets.** You can do this like this:
+**Note: the rules in this repository assume you have added a class "pb" to your body tag to help override any existing stylesheets.** You can do this like this:
 
 `<body class="pb">`
 

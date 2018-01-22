@@ -1,0 +1,17 @@
+/* DUMPING GROUND - needs tidying and verifying */
+/* add a border around input fields when selected */
+.pb input:focus, 
+.pb textarea:focus, 
+.pb select:focus, 
+.pb fieldset:focus { 
+    border-color: #1693A5;
+    box-shadow: 0px 0px 10px #1693A5;
+}
+/* style all inputs */
+.en__field__input {
+    padding: 0.75rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    color: #333;
+    box-shadow: 1px 1px 3px #ccc inset;
+}

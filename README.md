@@ -9,13 +9,15 @@ You can add styles via each text or form block's style button (it looks like an 
 
 CSS can be added directly into your template's header, between the <head> and </head> tags. For example this would style text that is marked as Heading 1:
 
-`<style>
+```
+<style>
 h1 {
   margin: 1.7rem 0;
   font-size: 3rem;
   font-weight: bold;
 }
-</style>`
+</style>
+```
 
 Alternatively you can add your styles to an "external stylesheet". You can create these in Notepad and save them as a file ending in .css. Then upload them to your library and link to them in your template, for example:
 

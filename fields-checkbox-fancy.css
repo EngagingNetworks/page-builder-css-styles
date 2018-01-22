@@ -1,5 +1,5 @@
-/* Style standard checkboxes by hiding and replacement them */
-/* Hide checkboxes */
+/* STYLE CHECKBOXES BY HIDING AND REPLACING WITH LABEL::BEFORE */
+/* Hide checkbox inputs */
 .pb .en__field__input--checkbox {
     display: none;
 }
@@ -15,10 +15,10 @@
     cursor: pointer;
 }
 /* Add replacement tick box */
-.pb input[type=checkbox]:checked + label:before {
+.pb input[type=checkbox]:checked + label::before {
     background-color: #aaa;
 }
-.pb input[type=checkbox] + label:before {
+.pb input[type=checkbox] + label::before {
     content: "";
     background-color: #fff;
     border: 4px solid #fff;

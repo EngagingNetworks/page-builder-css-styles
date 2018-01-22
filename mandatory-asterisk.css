@@ -1,4 +1,4 @@
-/* Mandatory asterisk */
+/* Show an asterisk next to mandatory fields */
 .en__field.en__mandatory > label::after,
 .en__field--registrant--mandatory > label::after {
     content: " *";

@@ -1,0 +1,5 @@
+/* Unequal height columns - columns are the same height by default */
+.pb .en__component--row {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}

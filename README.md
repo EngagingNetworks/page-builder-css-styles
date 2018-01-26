@@ -1,4 +1,4 @@
-# page-builder-css-styles
+# page-builder: CSS styles
 Example css rules to style your page-builder pages
 
 You can add styles via each text or form block's style button (it looks like an artist's pallette), but if you want more control and to apply styles to your template so they always apply it is recommended you use CSS.

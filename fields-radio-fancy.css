@@ -1,0 +1,48 @@
+        /* DONATION AMOUNTS */
+        /* label full width */
+        .en__field--donationAmt > .en__field__label {
+        	width: 100%;
+        }
+        /* flex container */
+        .pb .en__field--donationAmt .en__field__element--radio {
+        	display: flex;
+        	flex-wrap: wrap;
+        	width: 100%;
+        	justify-content: space-between;
+        }
+        /* donation amount boxes */
+        .en__field--donationAmt .en__field__item:not(.en__field__item--other) {
+            width: 24%;
+        }
+        /* donation amount boxes labels */
+        .en__field--donationAmt .en__field__item:not(.en__field__item--other) .en__field__label--item {
+          padding: 1rem;
+        	background-color: #a3f331;
+        	border-radius: 5px;
+        	cursor: pointer;
+        	text-align: center;        	
+        	font-weight: normal;
+        	width: 100%;
+        	max-width: 100%;
+        	border: 2px solid #a3f331;
+        }
+        .en__field--donationAmt .en__field__item:not(.en__field__item--other) .en__field__label--item:hover {
+            background-color: #bff274;
+        }
+        /* checked */
+        .en__field--donationAmt .en__field__input--radio:checked + .en__field__label,
+        .en__field--donationAmt .en__field__item:not(.en__field__item--other) .en__field__input--radio:checked + .en__field__label--item:hover {
+            background-color: #fff;
+        }
+        /* other box */
+        .en__field--donationAmt .en__field__item--other {
+            width: 50%;
+        }
+        .en__field--donationAmt .en__field__input--other {
+            margin: 0;
+            width: 100%;
+        }
+        /* inputs */
+        .en__field--donationAmt .en__field__input--radio {
+            display: none;
+        }

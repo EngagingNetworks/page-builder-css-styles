@@ -46,3 +46,8 @@
         .en__field--donationAmt .en__field__input--radio {
             display: none;
         }
+        @media only screen and (max-width: 600px) {
+            .en__field--donationAmt .en__field__item:not(.en__field__item--other) {
+                width: 49%;
+            }
+        }

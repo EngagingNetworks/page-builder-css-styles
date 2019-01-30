@@ -1,0 +1,19 @@
+<!-- Sometimes supporters will type in the currency symbol into -->
+<!-- the other input box for donations causing it to be invalid -->
+<!-- This style adds a symbol inside the box so the supporter will -->
+<!-- be more likely to just type in the number. -->
+<style>
+        /* Add $ to other donation box */
+        .en__field--donationAmt .en__field__item--other {
+            position: relative;
+        }
+        .en__field--donationAmt .en__field__item--other:before {
+            content: "$";
+            position: absolute;
+            top: 14px;
+            left: 10px;
+        }
+        .en__field--donationAmt .en__field__input--other {
+            padding-left: 18px !important;
+        }
+</style>

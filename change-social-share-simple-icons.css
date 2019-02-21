@@ -1,0 +1,10 @@
+.pb .en__share__button {
+    height: 53px; /* your value */
+    width: 262px; /* your value */
+}
+.pb .en__share__button--twitter {
+    background: url(YOUR IMAGE URL) center center no-repeat;
+}
+.pb .en__share__button--facebook {
+    background: url(YOUR IMAGE URL) center center no-repeat;
+}

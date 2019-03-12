@@ -12,7 +12,8 @@ This style can fix this issue by giving the target block's HTML message a width:
 
 ```css
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-.pb .en__contactMessage__htmlDisplay iframe {
-width: 300px;
+  .pb .en__contactMessage__htmlDisplay iframe {
+    width: 300px;
+  }
 }
 ```

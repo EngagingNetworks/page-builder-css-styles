@@ -1,0 +1,20 @@
+/* By default, a two-column row has each column at 50% width. You can either:*/
+/* 1) add padding to the columns to ensure there is space around them, or *.
+/* 2) reduce the column widths and use the flexbox display to space them */
+
+.pb .en__component--row--2 {
+    justify-content: space-between;
+}
+.pb .en__component--row--2 .en__component--column {
+    width: 48%;
+    flex: 0 1 auto;
+}
+
+/* ensure you add a media query to give them full width at narrower screens */
+
+@media only screen and (max-width: 950px) {
+  .pb .en__component--row--2 .en__component--column {
+      width: 100%;
+      margin-bottom: 1em;
+  }
+}

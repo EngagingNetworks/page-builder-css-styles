@@ -44,8 +44,11 @@ Fancy donation buttons, to choose the amount https://github.com/EngagingNetworks
 
 Show a currency symbol inside the Other donation box https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/fields-show-currency-symbol-inside-other-donation-input.html
 
-### Target block styles
+### Email to target - Target block styles
 HTML message fix, if running outside of box https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/target-block-html-message-displaying-wrong.md
+
+### EVents - Ticket block styles
+Hide the additional donation box https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/events-hide-additional-donation-block.html
 
 ### Social sharing styles
 Change the icons that appear for Twitter and Facebook: https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/change-social-share-simple-icons.css

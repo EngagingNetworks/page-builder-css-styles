@@ -1,0 +1,30 @@
+        /* select example, with styling and arrow */
+        .pb .en__field__input--select {
+            background-color: #fff;
+            width: 100%;
+            padding: 1em;
+            font-size: 16px;
+            color: #333;
+            border-radius: 10px;
+            border: 1px solid #999;
+            -webkit-box-shadow: inset 1px 1px 4px 1px rgba(204,204,204,1);
+            -moz-box-shadow: inset 1px 1px 4px 1px rgba(204,204,204,1);
+            box-shadow: inset 1px 1px 4px 1px rgba(204,204,204,1);
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+          background-image:
+            linear-gradient(45deg, transparent 50%, gray 50%),
+            linear-gradient(135deg, gray 50%, transparent 50%),
+            linear-gradient(to right, #ccc, #ccc);
+          background-position:
+            calc(100% - 20px) calc(1em + 6px),
+            calc(100% - 15px) calc(1em + 6px),
+            calc(100% - 2.5em) 0.8em;
+          background-size:
+            5px 5px,
+            5px 5px,
+            1px 1.5em;
+          background-repeat: no-repeat;
+        }

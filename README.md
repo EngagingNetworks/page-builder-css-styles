@@ -40,6 +40,8 @@ Add a asterisk to the label if mandatory https://github.com/EngagingNetworks/pag
 
 Fancy checkboxes, instead of default https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/fields-checkbox-fancy.css
 
+Fancy selects, instead of default https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/fields-select-fancy.css
+
 Fancy donation buttons, to choose the amount https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/fields-donation-amount-radio-fancy.css
 
 Show a currency symbol inside the Other donation box https://github.com/EngagingNetworks/page-builder-css-styles/blob/master/fields-show-currency-symbol-inside-other-donation-input.html

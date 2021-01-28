@@ -1,0 +1,5 @@
+/* If you want to style the page but not have it show when editing the page in page-builder, use this format */
+/* In this example, any block with the class "hiddenform" will show in page-builder but not in preview or live */
+   body:not(#en__pagebuilder) .hiddenform {
+       display:none;
+   }

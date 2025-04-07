@@ -1,5 +1,5 @@
-<!-- Hide or show an alert below the opt-in if the supporter chooses N. The text block should have a class of optOutMessage for this to work, with this code below the opt-in. Also this needs to be changed so it doesn't need !important - work in progress! -->
-<style>
+/* Hide or show an alert below the opt-in if the supporter chooses N. The text block should have a class of optOutMessage for this to work, with this code below the opt-in. Also this needs to be changed so it doesn't need !important - work in progress! */
+
     .en__component--formblock:has(.en__field--question input[value="N"]:checked) + .en__component--copyblock.optOutMessage {
     	display: block;
     }
@@ -18,4 +18,3 @@
         background-color: red!important;
     }
 }
-</style>
